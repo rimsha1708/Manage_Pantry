@@ -1,0 +1,56 @@
+/* styles/Home.module.css */
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    background-image: url('/images/r.avif'); /* Set the background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #333; /* Default text color */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+
+.appName {
+    font-size: 2.5em; /* Large font for app name */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 20px; /* Space below the app name */
+    color: #fff; /* White color for contrast */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Shadow for better visibility */
+}
+
+.formContainer {
+    margin: 20px; /* Space between items */
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for better visibility */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
+    max-width: 400px; /* Limit the width of the form */
+    width: 90%; /* Full width for smaller screens */
+}
+
+.searchBarContainer {
+    margin-bottom: 20px;
+    max-width: 400px; /* Limit the width of the search bar */
+    width: 90%; /* Full width for smaller screens */
+}
+
+.list {
+    margin-top: 20px;
+    width: 90%; /* Full width for smaller screens */
+}
+
+.listItem {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency for visibility */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
